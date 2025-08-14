@@ -1,6 +1,5 @@
 # Simple To-Do List Program
-# This program allows users to manage daily tasks:
-# Add new tasks, view tasks, mark tasks as done, and delete tasks.
+# Program to manage daily tasks: add, view, mark done, delete
 
 tasks = []  # List to store all tasks
 
@@ -13,7 +12,7 @@ while True:
     print("4. Delete Task")
     print("5. Exit")
 
-    # User input to select an option
+    # Ask user to choose an option
     choice = input("Enter your choice (1-5): ")
 
     if choice == "1":
@@ -50,7 +49,7 @@ while True:
             print("⚠ Invalid task number.")
 
     elif choice == "5":
-        # Exit the program
+        # Exit program
         print("👋 Exiting... Bye!")
         break
 
